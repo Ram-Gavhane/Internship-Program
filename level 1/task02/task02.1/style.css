@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+#container{
+    background-color: black;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#btn{
+    height: 50px;
+    width: 300px;
+    background-color: #fff;
+    border-radius: 8px;
+    font-size: 18px;
+    font-family: kalnia;
+}
+
