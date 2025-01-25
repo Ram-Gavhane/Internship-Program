@@ -1,0 +1,19 @@
+body{
+    background-color: black;
+    color: aliceblue;
+}
+h1{
+    text-align: center;
+}
+#para{
+    text-align: center;
+    font-size: 18px;
+}
+#image{
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+img{
+    border: 2px solid whitesmoke;
+}
