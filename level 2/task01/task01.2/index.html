@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Responsive Bootstrap Grid</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container py-4">
+        <div class="header">
+            <h1 class="h3 mb-3">Responsive Grid Layout</h1>
+            <p class="text-muted">Resize the window to see how the grid responds</p>
+        </div>
+
+        <!-- Equal width columns -->
+        <div class="row mb-4">
+            <div class="col-sm">
+                <div class="grid-item">
+                    <h3 class="h5">Column 1</h3>
+                    <p>Equal width on small screens and up</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="grid-item">
+                    <h3 class="h5">Column 2</h3>
+                    <p>Equal width on small screens and up</p>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="grid-item">
+                    <h3 class="h5">Column 3</h3>
+                    <p>Equal width on small screens and up</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Different width columns -->
+        <div class="row mb-4">
+            <div class="col-12 col-md-6 col-lg-8">
+                <div class="grid-item">
+                    <h3 class="h5">Main Content</h3>
+                    <p>Full width on small, half on medium, 8 columns on large</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-4">
+                <div class="grid-item">
+                    <h3 class="h5">Sidebar</h3>
+                    <p>Full width on small, half on medium, 4 columns on large</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Nested columns -->
+        <div class="row">
+            <div class="col-sm-9">
+                <div class="grid-item">
+                    <h3 class="h5">Nested Grid</h3>
+                    <div class="row mt-3">
+                        <div class="col-8 col-sm-6">
+                            <div class="grid-item mb-0">
+                                <h4 class="h6">Nested Column 1</h4>
+                                <p class="mb-0">8/6 columns</p>
+                            </div>
+                        </div>
+                        <div class="col-4 col-sm-6">
+                            <div class="grid-item mb-0">
+                                <h4 class="h6">Nested Column 2</h4>
+                                <p class="mb-0">4/6 columns</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3">
+                <div class="grid-item">
+                    <h3 class="h5">Sidebar</h3>
+                    <p>3 columns</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,11 @@
+.grid-item {
+    background-color: #f8f9fa;
+    border: 1px solid #dee2e6;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+    text-align: center;
+}
+.header {
+    margin-bottom: 2rem;
+}
